@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { navBar } from "./navbar/index.js";
 import { sideBar } from "./sidebar/index.js";
-import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme(
   {
@@ -10,7 +9,7 @@ export default hopeTheme(
     logo: "/avatar.png",
     hostname: "/",
 
-    iconAssets: "fontawesome-with-brands",
+    iconAssets: ["//at.alicdn.com/t/c/font_4184658_gug38i2p3r7.css"],
 
     locales: {
       "/": {
